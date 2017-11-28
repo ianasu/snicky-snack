@@ -1,0 +1,2 @@
+#If a directory exists, remove the directory recursively
+IF(Test-Path .\<dir-name>) { Remove-Item .\<dir-name> -force -recurse}
